@@ -1,14 +1,14 @@
 <%= form_with model: @question, local: true do |f| %>
   <div class="form-group">
-    <lavel>Name</lavel>
+    <label>Name</label>
     <%= f.text_field :name, class: "form-control" %>
   </div>
   <div class="form-group">
-    <lavel>Title</lavel>
+    <label>Title</label>
     <%= f.text_field :title, class: "form-control" %>
   </div>
   <div class="form-group">
-    <lavel>Content</lavel>
+    <label>Content</label>
     <%= f.text_area :content, class: "form-control" %>
   </div>
   <div class="text-center">
